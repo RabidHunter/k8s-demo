@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: k8s-demo-api
-          image: maxnavrotsky/k8s-demo-app:1.0.0
+          image: k8s-demo-app:1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
